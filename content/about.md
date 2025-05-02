@@ -10,4 +10,4 @@ yufeng
 
 我认为中文语法结构过于松散，用它来写诗很好，但是用来传递信息会有失真。中文一个最大的问题在于它可以没有主语，这将造成很大的思维上的模糊，也不利于逻辑链条的传递。我们应该对自己提高要求，尽力写结构完整的句子，即使一开始这很痛苦，但是从长期看这对保持信息的准确性是必要的。
 
-这个博客用 [Next.js](https://nextjs.org/) 开发，托管在 [Cloudflare Page](https://pages.cloudflare.com/) 中，博客文章和代码都公开[在这里](https://github.com/xyf7/yufeng-blog)。
+这个博客用 [Next.js](https://nextjs.org/) 开发，托管在 [Cloudflare Page](https://pages.cloudflare.com/) 中，博客文章和代码都公开[在这里](https://github.com/xyf7/yf-blog)。

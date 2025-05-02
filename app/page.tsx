@@ -22,7 +22,7 @@ export default function Page() {
             href="https://www.pronounce-chinese.com/"
             className="visited:text-gray-400"
           >
-            pronounce-chinese.com: 协助英语母语人士念对拼音
+            pronounce-chinese.com: 协助英语母语人士念对拼音 (WIP)
           </Link>
         </section>
       </main>
