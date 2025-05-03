@@ -2,6 +2,7 @@ import { getPostContent } from "@/app/lib/utils";
 import { MarkdownRender } from "@/app/lib/render";
 import { formatDate, getPostList } from "@/app/lib/utils";
 import { Header } from "@/app/components/header";
+import { Footer } from "@/app/components/footer";
 
 export async function generateStaticParams() {
   const posts = await getPostList();
@@ -31,6 +32,7 @@ export default async function Page({
         </p>
         <MarkdownRender mdContent={post?.content || ""} />
       </main>
+      <Footer />
     </>
   );
 }
