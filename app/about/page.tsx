@@ -1,7 +1,7 @@
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { getAboutContent } from "@/app/lib/io";
-import { directRender } from "@/app/lib/render";
+import { getAboutContent } from "@/lib/io";
+import { directRender } from "@/lib/render";
 
 export default async function Page() {
   const rawContent = await getAboutContent();

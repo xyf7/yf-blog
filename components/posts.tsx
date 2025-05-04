@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getPostList } from "@/app/lib/utils";
+import { getPostList } from "@/lib/utils";
 import { TimePast } from "@/components/timePast";
 
 export async function Posts({ maxItem = 0 }) {

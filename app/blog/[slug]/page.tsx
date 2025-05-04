@@ -1,6 +1,6 @@
-import { getPostContent } from "@/app/lib/utils";
-import { MarkdownRender } from "@/app/lib/render";
-import { formatDate, getPostList } from "@/app/lib/utils";
+import { getPostContent } from "@/lib/utils";
+import { MarkdownRender } from "@/lib/render";
+import { formatDate, getPostList } from "@/lib/utils";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 
