@@ -1,6 +1,6 @@
-import { Header } from "@/app/components/header";
-import { Footer } from "@/app/components/footer";
-import { Posts } from "@/app/components/posts";
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
+import { Posts } from "@/components/posts";
 
 export default function Page() {
   return (

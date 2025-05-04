@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { GithubSvg } from "@/app/components/svg";
+import { GithubSvg } from "@/components/svg";
 import { usePathname } from "next/navigation";
 
 export function Header() {

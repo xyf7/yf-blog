@@ -1,5 +1,5 @@
-import { Header } from "@/app/components/header";
-import { Footer } from "@/app/components/footer";
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
 import { getAboutContent } from "@/app/lib/io";
 import { directRender } from "@/app/lib/render";
 
