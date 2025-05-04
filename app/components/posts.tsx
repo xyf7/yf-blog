@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getPostList } from "@/app/lib/utils";
-import { daysAgo } from "@/app/lib/date";
+import { TimePast } from "@/components/timePast";
 
 export async function Posts({ maxItem = 0 }) {
   const posts = await getPostList();
@@ -17,9 +17,7 @@ export async function Posts({ maxItem = 0 }) {
           <Link href={`/blog/${post.slug}`} className="visited:text-gray-400">
             <span className="pr-1">{index + 1}. </span>
             {post.title}
-            <span className="pl-6 text-xs">
-              {daysAgo(post.publishedAt) + " 天前发布"}
-            </span>
+            <TimePast date={post.publishedAt} />
           </Link>
         </p>
       );
